@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: PHPmySQLgitHUB
+  host: PHPmySQLgitHUB
+  disk_quota: 1024M
+  services:
+  - MySQLgitHUB
